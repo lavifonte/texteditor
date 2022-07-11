@@ -6,10 +6,11 @@
         {
             Console.Clear();
             Console.WriteLine("Hey! What would you like to do? Type chosen number. Example: 1");
+            Console.WriteLine();
             Console.WriteLine("#0: exit");
             Console.WriteLine("#1: open file");
             Console.WriteLine("#2: create new file");
-
+            Console.WriteLine();
             int option = int.Parse(Console.ReadLine());
 
             switch (option)
